@@ -16,7 +16,7 @@ class LivreController extends FOSRestController
 {
     
     /**
-    * @Rest\Get("/books")
+    * @Rest\Get("/books/")
     */
     public function getAction()
     {
